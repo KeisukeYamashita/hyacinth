@@ -48,4 +48,4 @@ class Hyacinth {
 function hyacinth(d) {
     return new Hyacinth(d);
 }
-exports.default = Hyacinth;
+exports.default = hyacinthy;

@@ -1,6 +1,6 @@
 {
   "name": "@keisukeyamashita/hyacinth",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Light weight Javascript library for star sign",
   "main": "dist/hyacinth.js",
   "scripts": {
