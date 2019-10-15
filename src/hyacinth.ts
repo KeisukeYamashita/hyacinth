@@ -46,4 +46,4 @@ function hyacinth(d?: any):Hyacinth{
     return new Hyacinth(d)
 }
 
-export default Hyacinth
+export default hyacinthy
