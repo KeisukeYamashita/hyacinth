@@ -1,0 +1,7 @@
+src/
+test/
+tslint.json
+.prettierrc
+tsconfig.json
+.git/
+.github/

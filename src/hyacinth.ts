@@ -1,4 +1,4 @@
-// Copyright 2019 The gemini Authors.
+// Copyright 2019 The Hyacinth Authors.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
 import dayjs, {Dayjs} from 'dayjs';
 import starSign, {StarSign, StarSigns} from './starSign';
 
-class Gemini {
+class Hyacinth {
     private date: Dayjs
 
     constructor(d?: any) {
@@ -42,8 +42,8 @@ class Gemini {
     }
 }
 
-function gemini(d?: any):Gemini{
-    return new Gemini(d)
+function hyacinth(d?: any):Hyacinth{
+    return new Hyacinth(d)
 }
 
-export default gemini
+export default Hyacinth

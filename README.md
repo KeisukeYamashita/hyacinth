@@ -1,4 +1,4 @@
-# Gemini
+# Hyacinth
 
 > Light weight JavaScript library for star sign
 
@@ -7,10 +7,10 @@
 The sample is here.
 
 ```typescript
-import gemini from 'gemini'
+import hyacinth from '@keisukeyamashita/hyacinth'
 import dayjs from 'dayjs'
 
-const starsign = gemini(dayjs()).starSign();
+const starsign = hyacinth(dayjs()).starSign();
 console.log(starsign.name);
 ```
 

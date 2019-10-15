@@ -1,15 +1,21 @@
 {
-  "name": "gemini",
+  "name": "@keisukeyamashita/hyacinth",
   "version": "1.0.0",
   "description": "Light weight Javascript library for star sign",
-  "main": "dist/index.js",
-  "repository": "git@github.com:KeisukeYamashita/gemini.git",
+  "main": "dist/hyacinth.js",
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm publish --access=public"
+  },
+  "repository": "git@github.com:KeisukeYamashita/hyacinth.git",
   "author": "KeisukeYamashita <19yamashita15@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "ts-node": "^8.4.1"
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
   },
   "dependencies": {
     "dayjs": "^1.8.16"
-  }
+  },
+  "private": false
 }
