@@ -1,1 +1,1 @@
-export default hyacinthy;
+export default hyacinth;
