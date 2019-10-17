@@ -46,7 +46,7 @@ function get(d: Dayjs): StarSign{
     let day = d.date();
     let targetValue = month * 100 + day;
     let idx;
-    let result: StarSign = {id: 0,name: "", borderValue:0}
+    let result: StarSign = {id: 1,name: 'やぎ座',borderValue: 119}
     for(idx = 0; idx < starSigns.signs.length;idx++) {
         const sign = starSigns.signs[idx]
         if (targetValue <= sign.borderValue) {
