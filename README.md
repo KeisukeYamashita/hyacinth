@@ -56,7 +56,7 @@ type SignStar interface {
 ## Support
 
 * `dayjs` Object
-* Native `Date` Object
+* Native `Date` Object(not yet:<)
 
 ## Author
 
