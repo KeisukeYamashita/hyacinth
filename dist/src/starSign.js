@@ -13,6 +13,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 Object.defineProperty(exports, "__esModule", { value: true });
+// The orders are following this link
+//  JP: https://www.study-style.com/seiza/12seiza.html
+//  EN: https://www.allure.com/story/zodiac-sign-personality-traits-dates
 const starSigns = {
     signs: [
         { id: 10, name: 'やぎ座', borderValue: 119 },
@@ -34,7 +37,7 @@ function get(d) {
     let day = d.date();
     let targetValue = month * 100 + day;
     let idx;
-    let result = { id: 1, name: 'やぎ座', borderValue: 119 };
+    let result = { id: 10, name: 'やぎ座', borderValue: 119 };
     for (idx = 0; idx < starSigns.signs.length; idx++) {
         const sign = starSigns.signs[idx];
         if (targetValue <= sign.borderValue) {

@@ -1,5 +1,10 @@
 # Hyacinth
 
+[![CI](https://github.com/KeisukeYamashita/hyacinth/workflows/Test/badge.svg)](https://github.com/KeisukeYamashita/hyacinth/actions)
+[![npm version](https://badge.fury.io/js/%40keisukeyamashita%2Fhyacinth.svg)](https://badge.fury.io/js/%40keisukeyamashita%2Fhyacinth)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
 > Light weight JavaScript library for star sign
 
 <br />

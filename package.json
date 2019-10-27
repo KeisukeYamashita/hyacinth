@@ -1,16 +1,21 @@
 {
   "name": "@keisukeyamashita/hyacinth",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Light weight Javascript library for star sign",
   "main": "dist/hyacinth.js",
   "scripts": {
     "build": "tsc",
+    "test": "jest",
     "publish": "npm publish --access=public"
   },
   "repository": "git@github.com:KeisukeYamashita/hyacinth.git",
   "author": "KeisukeYamashita <19yamashita15@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^24.0.20",
+    "@types/mocha": "^5.2.7",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.4"
   },
