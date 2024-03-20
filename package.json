@@ -12,10 +12,10 @@
   "author": "KeisukeYamashita <19yamashita15@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@types/chai": "4.2.14",
+    "@types/chai": "4.3.14",
     "@types/jest": "24.9.1",
     "@types/mocha": "5.2.7",
-    "chai": "4.2.0",
+    "chai": "4.4.1",
     "jest": "24.9.0",
     "mocha": "6.2.3",
     "ts-jest": "26.4.2",
